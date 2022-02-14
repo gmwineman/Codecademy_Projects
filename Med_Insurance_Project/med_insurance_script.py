@@ -24,7 +24,7 @@ print(len(ages))
 def convert_to_int(list):
     for i in range(0, len(list)):
         list[i] = int(list[i])
-convert_to_int(ages)
+convert_to_int(ages)  
 #print(type(ages[1]))
 def calculate_average(list):
     total = 0
